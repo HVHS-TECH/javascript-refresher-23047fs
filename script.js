@@ -1,3 +1,3 @@
-if(button){
+function button() {
     alert("Congratulations!\nYou got the script running.")
 }
