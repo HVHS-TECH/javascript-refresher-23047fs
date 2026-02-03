@@ -1,1 +1,3 @@
-alert("Congratulations!\nYou got the script running.")
+if(button){
+    alert("Congratulations!\nYou got the script running.")
+}
