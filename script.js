@@ -1,6 +1,6 @@
-let test=1;
+let test="";
 
 function alertButton() {
-    //alert("Congratulations!\nYou got the script running.")
+    test=prompt("Congratulations!\nYou got the script running.")
     document.getElementById("welcomeMessage").innerHTML=test
 }
