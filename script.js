@@ -1,7 +1,9 @@
+let header;
+let headerValue;
 
 function headerButton() {
-    const header=document.getElementById("test")
-    const headerValue=header.value
+    header=document.getElementById("test")
+    headerValue=header.value
     console.log("headerButton")
 }
 
