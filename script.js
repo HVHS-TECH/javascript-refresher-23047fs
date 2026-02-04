@@ -1,14 +1,21 @@
-let header;
+let numberCookies=0;
+
+function cookieButton() {
+    numberCookies=numberCookies+1
+    document.getElementById("cookies").innerHTML=numberCookies
+    console.log("Cookie Button has been pressed")
+    console.log("Number of cookies is " + numberCookies)
+}
+
+
+
+
+
+
 let headerValue;
 
 function headerButton() {
     header=document.getElementById("test")
     headerValue=header.value
     console.log("headerButton")
-}
-
-function alertButton() {
-    //alert("Congratulations!\nYou got the script running.")
-    document.getElementById("welcomeMessage").innerHTML=headerValue
-    console.log("alertButton")
 }
